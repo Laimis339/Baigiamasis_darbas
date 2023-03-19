@@ -1,0 +1,47 @@
+body {
+    background: url(background-1.svg);
+}
+
+.textBox {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.homeText {
+    font-style: italic;
+    color: white;
+}
+
+.homeText2 {
+    color: black;
+    font-style: italic;
+    position: relative;
+    top: 40px;
+    right: 15px;
+}
+
+.home_imgbox {
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    width: 20%;
+    height: 20%;
+    padding: 1rem;
+    border: 3px white solid;
+}
+
+.img2 {
+    width: 20%;
+    height: 20%;
+    padding: 1rem;
+}
+
+.img3 {
+    width: 20%;
+    height: 20%;
+    padding: 1rem;
+    border: 3px white solid;
+}

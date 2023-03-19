@@ -1,0 +1,24 @@
+body {
+  background: url(background-1.svg);
+}
+
+#playerTable {
+  background-color: rgba(245, 246, 246, 0.981);
+  margin: 100px auto;
+  width: 80%;
+  border: 2px black solid;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#addPlayer {
+  margin-bottom: 1rem;
+  background-color: cornflowerblue;
+  border: 1px cornflowerblue solid;
+  color: black;
+  font-weight: 600;
+}
+
+#addPlayer:hover {
+  background-color: rgb(65, 125, 236);
+}

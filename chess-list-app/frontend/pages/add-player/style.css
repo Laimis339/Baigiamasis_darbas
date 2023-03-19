@@ -1,0 +1,71 @@
+#addPlayerForm {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 3rem auto;
+  border: 1.5px black solid;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(214, 220, 220, 0.981);
+}
+
+#addPlayerForm h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#addPlayerForm .actions {
+  display: flex;
+  justify-content: center;
+}
+
+#addPlayerForm button {
+  margin: 1rem 1rem;
+  width: 40%;
+}
+
+.form-group label {
+  font-size: x-large;
+}
+
+body {
+  background: url(background-2.svg);
+}
+
+#saveButton {
+  background-color: cornflowerblue;
+  border: 1px cornflowerblue solid;
+  color: black;
+  font-weight: 600;
+}
+
+#saveButton:hover {
+  background-color: rgb(65, 125, 236);
+}
+
+#cancelButton {
+  background-color: crimson;
+  border: 1px crimson solid;
+  color: black;
+  font-weight: 600;
+}
+
+#cancelButton:hover {
+  background-color: rgb(201, 13, 51);
+}
+
+.chess1 {
+  position: absolute;
+  left: 5%;
+  width: 15%;
+  top: 30%;
+  padding-left: 1rem;
+}
+
+.chess2 {
+  position: absolute;
+  right: 5%;
+  width: 13%;
+  top: 29%;
+  padding-right: 1rem;
+}
